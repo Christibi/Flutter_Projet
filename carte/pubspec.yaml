@@ -1,0 +1,41 @@
+name: portfolio
+description: Ma carte de visite.
+
+
+publish_to: 'none' 
+
+
+version: 1.0.1+2
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^1.0.0
+  google_fonts: ^1.1.1
+  flutter_multi_carousel: ^1.0.3
+  fab_circular_menu: ^1.0.1 
+  font_awesome_flutter: ^8.10.0
+  url_launcher: ^5.7.10
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+ 
+  assets:
+    - assets/
+
+ 
+ 
